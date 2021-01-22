@@ -1,0 +1,24 @@
+{
+  "name": "react-boilerplate-2021",
+  "version": "1.0.0",
+  "description": "Streamlined React boilerplate using modern practices. Minimal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkenvy/lean-react-boilerplate-2021.git"
+  },
+  "keywords": [
+    "react",
+    "preact",
+    "boilerplate"
+  ],
+  "author": "Reno McKenzie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darkenvy/lean-react-boilerplate-2021/issues"
+  },
+  "homepage": "https://github.com/darkenvy/lean-react-boilerplate-2021#readme"
+}
