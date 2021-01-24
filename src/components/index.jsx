@@ -1,7 +1,10 @@
-import React from "react";
+import React from 'react';
+import { hot } from 'react-hot-loader/root';
 // todo: add styled-components, redux, saga
 
-const Index = () => {
+const App = () => {
+  const a = 'okay';
+  console.log('here2', a);
   return (
     <div className="full-screen">
       <div>
@@ -12,11 +15,11 @@ const Index = () => {
           href="https://github.com/deityhub"
           target="_blank"
         >
-          Know more
+          Hello World
         </a>
       </div>
     </div>
   );
 };
 
-export default Index;
+export default hot(App);
