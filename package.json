@@ -7,9 +7,10 @@
   "scripts": {
     "clean": "rimraf dist/",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cross-env NODE_ENV=production npm run clean && webpack --config webpack.config.js --color --progress",
-    "build:dev": "cross-env NODE_ENV=development npm run clean && webpack --config webpack.config.js --color --progress",
-    "dev": "cross-env npm run clean && NODE_ENV=development webpack serve --hot --config webpack.config.js",
+    "build": "npm run clean && cross-env NODE_ENV=production webpack --config webpack.config.js --color --progress",
+    "build:dev": "npm run clean && cross-env NODE_ENV=development webpack --config webpack.config.js --color --progress",
+    "dev": "npm run clean && cross-env NODE_ENV=development webpack serve --hot --config webpack.config.js",
+    "envtest": "cross-env NODE_ENV=production node test.js",
     "start": "npm run dev"
   },
   "repository": {
